@@ -1,0 +1,18 @@
+# Compile kbd67...
+qmk compile
+cp kbdfans_kbd67_rev2_tony.hex /mnt/c/keyboards/
+
+# Compile kbd67 split spacebar...
+qmk compile -kb kbdfans/kbd67/rev2 -km tony_split_spacebar
+cp kbdfans_kbd67_rev2_tony_split_spacebar.hex /mnt/c/keyboards/
+
+# Compile dz60 WKL hot swap...
+qmk compile -kb dztech/dz60rgb_wkl/v2 -km tony60wkl
+cp dztech_dz60rgb_wkl_v2_tony60wkl.hex /mnt/c/keyboards/
+
+Afterwards...
+invoke qmk_toolbox.exe and load hex file to keyboard
+
+
+Backup...
+cp -rf tony_split_spacebar /mnt/c/keyboards/important_backups/qmk/kbd67/rev2/keymaps
