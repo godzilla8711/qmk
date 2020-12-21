@@ -13,6 +13,10 @@ cp dztech_dz60rgb_wkl_v2_tony60wkl.hex /mnt/c/keyboards/
 Afterwards...
 invoke qmk_toolbox.exe and load hex file to keyboard
 
+misc...
+git add notes.txt
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/godzilla8711/qmk.git
+git push --set-upstream origin main
 
-Backup...
-cp -rf tony_split_spacebar /mnt/c/keyboards/important_backups/qmk/kbd67/rev2/keymaps
