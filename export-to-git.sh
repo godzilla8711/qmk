@@ -5,6 +5,7 @@ GIT_QMK_FOLDER=$HOME/qmk
 
 # Copy in important files
 cp notes.txt "$GIT_QMK_FOLDER/notes.txt"
+cp compile.sh "$GIT_QMK_FOLDER/compile.sh"
 cp export-to-git.sh "$GIT_QMK_FOLDER/export-to-git.sh"
 
 # Copy in custom keyboard mappings
