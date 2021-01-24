@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
 	[1] = LAYOUT_65_ansi_blocker(
       KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL, KC_NO, \
-      KC_TRNS, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_PSCR, KC_NO,   KC_NO,   KC_NO,  KC_NO, \
+      KC_TRNS, RGB_TOG, RGB_MOD, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_PSCR, KC_NO,   KC_NO,   KC_NO,  KC_NO, \
       KC_TRNS, KC_NO,   KC_NO,   KC_LSFT, KC_BSPC, KC_DEL,  KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_NO,   KC_NO,   KC_ENT,  KC_NO,         \
       KC_TRNS, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   MAC_1,   MAC_2,   KC_NO,   KC_NO,   KC_NO,   KC_TRNS, KC_PGUP, KC_NO,         \
       KC_TRNS, KC_TRNS, KC_TRNS, KC_SPC,  KC_TRNS, KC_TRNS, KC_HOME, KC_PGDN, KC_END)
