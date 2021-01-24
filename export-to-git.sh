@@ -18,3 +18,6 @@ cp -rf keyboards/kbdfans/kbd67/rev2/keymaps/tony_split_spacebar/ "$GIT_QMK_FOLDE
 rm -rf "$GIT_QMK_FOLDER/keyboards-dztech-dz60rgb_wkl-keymaps-tony60wkl/"
 cp -rf keyboards/dztech/dz60rgb_wkl/keymaps/tony60wkl/ "$GIT_QMK_FOLDER/keyboards-dztech-dz60rgb_wkl-keymaps-tony60wkl/"
 
+rm -rf "$GIT_QMK_FOLDER/keyboards-kbdfans-kbd67-mkiirgb-keymaps-tony67mkii/"
+cp -rf keyboards/kbdfans/kbd67/mkiirgb/keymaps/tony67mkii/ "$GIT_QMK_FOLDER/keyboards-kbdfans-kbd67-mkiirgb-keymaps-tony67mkii/"
+
