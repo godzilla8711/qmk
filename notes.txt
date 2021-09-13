@@ -3,11 +3,10 @@ Getting started...
 2. Download qmk firmware repo from git to top level folder qmk_firmware
 3. Build the repo so that you get bin/qmk which can be run from command line
 4. git clone https://github.com/godzilla8711/qmk.git into a top level folder called qmk
-  - Copy the mapping files into their proper subfolders in qmk_firmware
-  - Copy both compile.sh and export-to-git.sh directly in qmk_firmware folder
+  - Copy the mapping files into their proper subfolders in qmk_firmware with "initial_setup.sh"
 5. Run compile.sh in qmk_firmware and ensure hex files created properly
 6. Download the qmk_toolbox.exe
-7. Run qmk_toolbox.exe and load desired .hex file
+7. Run qmk_toolbox.exe and load desired .hex/.bin file
 8. Connect keyboard to laptop with USB while holder the ESC key so it loads in bootloader mode
 9. Flash the keyboard
 
